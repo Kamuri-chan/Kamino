@@ -1,0 +1,32 @@
+[
+	{
+		"keywords": [
+			"Ola",
+			"Oi",
+			"Hello",
+			"Alo",
+			"Hi"
+		],
+		"response": "Ola, tudo bem? Em que posso te ajudar?"
+	},
+	{
+		"keywords": [
+			"Criador",
+			"Te",
+			"Fez",
+			"Quem",
+			"Criou"
+		],
+		"response": "Uma pessoa apelidada Kamuri, da uma passada no GitHub: https://github.com/Kamuri-chan"
+	},
+	{
+		"keywords": [
+			"Objetivo",
+			"Qual",
+			"Seu",
+			"pode",
+			"fazer"
+		],
+		"response": "Te responder da forma mais clara e objetiva possível"
+	}
+]
