@@ -2,13 +2,13 @@
 
 # Português
 ## Outro bot? Qual o proposito?
-SIm, esse é outro bot, mas diferente dos outros, este bot tem uma função de preprocessamento de text. Vou explicar mais nas próximas linhas:
+Sim, esse é outro bot, mas diferente dos outros, este bot tem uma função de preprocessamento de texto. Vou explicar mais nas próximas linhas:
 - Este bot usa algumas técnicas chamadas de preprocessamento de texto, resumindo, texto puro entra, texto pronto para o processamento sai. Os métidos usados neste trabalho são explicados abaixo.
 - Este bot não usa Aprendizado de Máquina, IA ou outros métodos complicados para encontrar e pegar a resposta, apenas preprocessamento de texto e uma métrica baseada em palavra-chave/precisão.
-- As palavras chaves, assim como as respostas, estão em um arquivo JSON que pode ser atualizado usando uma API com POST requests, deixando muito mais fácil adicionar novas funções.
+- As palavras chaves, assim como as respostas, estão em um arquivo JSON que pode ser atualizado usando uma API com POST requests, deixando muito mais fácil a adição de novas funções.
 
 ## Os métodos
-Quando lidamos com texto informal e texto não-padronizado (ou não-estruturado), geralmente é bem mais dificil encontrar algum significado nele. É nesse comento que o prepeocessamento de texto é usado.
+Quando lidamos com texto informal e texto não-padronizado (ou não-estruturado), geralmente é bem mais dificil encontrar algum significado nele. É nesse momento que o prepeocessamento de texto é usado.
 Os métodos explorados por este bot são:
 - Tokenization:
   - Este processo transforma a mensagem em palavras menores, deixando mais fácil para trabalhar.
@@ -25,7 +25,7 @@ Eu não tenho certeza sobre o futuro deste projeto, estou fazendo apenas por div
 # English
 ## Another bot? What's the purpose?
 Yes, this is another bot, but unlike the others, this bot has a text preprocessing feature. I'll explain more on the following lines:
-- This bot uses some techniques called text preprocessing, TLDR: raw text, like any message, goes in, ready-for-processing text goes out. The explanation of the methods used on this work are bellow.
+- This bot uses some techniques called text preprocessing, in resume: raw text, like any message, goes in, ready-for-processing text goes out. The explanation of the methods used on this work are bellow.
 - This bot don't use ML, AI or any other fancy methods to find and retrieve the response, just uses text preprocessing and a keyword/precision metric.
 - The keywords, as well the responses, are in a JSON file that can be updated by using an API with POST requests, making it much easier to add new features.
 
